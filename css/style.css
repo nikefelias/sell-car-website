@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'Quite-Chocolatey';
+    src: url(../fonts/Quite-Chocolatey.ttf)
+    } 
+@font-face {
+    font-family: 'Montsserat-Bold';
+    src: url(../fonts/Montserrat-Bold.ttf)
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular.ttf)
+}
+@font-face {
+    font-family: 'PTSerif-Regular';
+    src: url(../fonts/PTSerif-Regular.ttf)
+}
+@font-face {
+    font-family: 'Couture-bld';
+    src: url(../fonts/couture-bld.otf)
+}
+
+* {
+    box-sizing: border-box;
+}
+.body {
+    margin: 0;
+}
+.container {
+    width: 1200px;
+    height: 2091px;
+    margin: 0 auto;
+}
+.header {
+    height: 688px;
+}
+.background_image {
+    position: absolute;
+    background-image: url('img/Layer1.png');
+    background-size: cover; 
+    background-position: center;
+    padding: 0;
+    z-index: -1;
+}
+.nav {
+    position: relative;
+    display: flex; 
+    align-items: center;
+    top: 71px; 
+    width: 1011px;
+    color: white;
+    justify-content: space-between;
+    padding: 0;
+    left: 0;
+    right: 0;
+    margin: auto;  
+}
+
+.logo {
+    flex: 0 1 auto; 
+    align-items: center;
+    font-family: "Quite-Chocolatey"; 
+    font-size: 88px; 
+}
+
+.menu {
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+    line-height: 22px;
+    display: flex; /* Отображает элементы меню в строку */
+    flex: 1; /* Располагает меню с правой стороны */
+    justify-content: flex-end; /* Выравнивает меню по правому краю */
+    list-style: none;
+    padding: 0 auto;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.nav li a:hover {
+    background-color: #130e27;
+    color: #fff;
+    border-radius: 5px;
+    }
+
+.menu li {
+    margin-left: 20px; /* Расстояние между пунктами меню */
+}
+
+.sell {
+    font-size: 90px;
+    text-transform: uppercase;
+    font-family: 'Montsserat-Bold';
+    color: rgb(19, 14, 39);
+    margin: 0;
+    padding: 0;
+    line-height: 80px;
+    margin-top: 167px;
+    margin-left: 105px;
+  }
+
+.line1 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.02em;
+}
+.line2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    letter-spacing: -0.02em;
+}
+p.text {
+    font-family: 'PTSerif-Regular';
+    width: 466px;
+    margin-left: 105px;
+    margin-top: 52px;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    line-height: 28px;
+}
+.services {
+    height: 482px;
+    background-color: #fff;
+}
+.services_head {
+    text-transform: uppercase;
+    font-family: 'Couture-bld';
+    font-size: 25px;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 45px;
+}
+.services_head1 {
+    margin: 0;
+    padding: 0;
+    margin-right: 16px;
+    color: #c62314;
+}
+.services_head2 {
+    margin: 0;
+    padding: 0;
+}
+.cards {
+    display: flex;    
+    font-family: 'PTSerif-Regular';
+    font-size: 18px;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 84px;
+    margin-right: 105px;
+    margin-top: 96px;
+}
+.cards p {
+    margin: 0;
+    padding: 0;
+    width: 168px;
+}
+.card1 p {
+   
+}
+.card1 img {
+    width: 163px;
+    height: 142px;
+    margin-bottom: 47px;
+}
+.card2 img {
+    width: 137px;
+    height: 137px;
+    margin-bottom: 53px;
+}
+.card3 img {
+    width: 116px;
+    height: 155px;
+    margin-bottom: 36px;
+ }
+.card4 img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 43px;
+}
+.our_story {
+    height: 123px;
+    background-color: #130e27;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our_story_text {
+    color: white;
+    font-family: 'PTSerif-Regular';
+    font-size: 18px;
+    line-height: 28px;
+    width: 603px;
+    margin-left: 105px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.button {
+    color: white;
+    background-color: #c62314;
+    font-family: 'Montserrat-Regular';
+    text-transform: uppercase;
+    font-size: 22px; 
+    width: 269px;
+    height: 64px;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    margin-right: 105px;
+}
+.pricing {
+    height: 614px;
+    background-color: #efefef;
+    padding: 0;
+}
+.pricing_head {
+    text-transform: uppercase;
+    font-family: 'Montsserat-Bold';
+    font-size: 50px;
+    color: #130e27;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 66px;
+    padding-bottom: 59px;
+}
+.items {
+    display: flex;
+    justify-content: space-between;  
+}
+.item1 {
+    width: 318px;
+    height: 391px;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    margin-left: 100px;
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}
+
+.item2 {width: 318px;
+    height: 391px;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}
+.item3 {width: 318px;
+    height: 391px;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    margin-right: 105px;
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}
+.items p {
+    text-align: center;
+    font-family: 'PTSerif-Regular';
+    font-size: 16px;
+    margin: 0;
+}
+.item_text {
+ padding-top: 35px;
+}
+
+p.item_price {
+    font-family: 'Montsserat-Bold';
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #c62314;
+    padding-top: 33px;
+    padding-bottom: 43px;
+}
+.item_button {
+    font-family: 'Montserrat-Regular';
+    font-size: 22px;
+    text-transform: uppercase;
+    height: 49px;
+    width: 205px;
+    color: #fff;
+    text-align: center;
+    align-content: center;
+    margin: 25px 0 0 0;
+    border-radius: 5px;
+}
+.button1  {
+    background-color:#130e27;
+}
+.button2 {
+    background-color:#c62314;
+}
+.button3 {
+    background-color:#130e27;
+}
+.footer {
+    height: 188px;
+    background-color: #130e27;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_text {
+    display: flex;
+font-size: 20px;
+font-family: 'PTSerif-Regular';
+margin-left: 84px;
+align-items: center;
+padding: 0;
+}
+.footer_text1 {
+    color: white;
+    margin-right: 8px;
+}
+.footer_text2 {
+color: #c62314;
+}
+.footer_logo {
+    font-family: 'Quite-Chocolatey';
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #c62314;
+    margin-right: 105px;
+padding: 0;
+align-items: center;
+}
